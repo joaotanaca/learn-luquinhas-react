@@ -1,0 +1,26 @@
+.form-component{
+    background-color: violet;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-component.active{
+    background-color: blueviolet;
+}
+
+.form-component input{
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+
+.form-component button[type="submit"], .form-component h2{
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #c4c4c4;
+    grid-column: span 2;
+}
